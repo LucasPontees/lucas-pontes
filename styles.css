@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Single+Day&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(50deg, #ff81ff 0, #fd74ff 16.67%, #c465ff 33.33%, #8953f2 50%, #4e40cb 66.67%, #0030a7 83.33%, #002286 100%);
+    color: whitesmoke;
+
+}
+
+#card {
+    margin-top: 50px;
+    border: none;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    background-color: transparent;
+    color: whitesmoke;
+    transition: transform 0.3s ease;
+
+}
+
+#card:hover{
+    transform: scale(1.2);
+}
+
+#foto-perfil {
+
+    margin: 5px 5px 5px 5px;
+}
+
+#meio{
+    margin-top: 25px;
+}
+
+.list-group-item{
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.list-group-item:hover{
+    background-color: transparent;
+}
+
+#fim{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#midias{
+    margin: 45px;
+    background-color: transparent;
+}
