@@ -7,8 +7,10 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-image: linear-gradient(50deg, #ff81ff 0, #fd74ff 16.67%, #c465ff 33.33%, #8953f2 50%, #4e40cb 66.67%, #0030a7 83.33%, #002286 100%);
     color: whitesmoke;
+    background-image: url('./imagens/fundo.jpg');
+    background-size: cover; /* Isso fará com que a imagem de fundo cubra todo o espaço disponível */
+    background-position: center;
 
 }
 
@@ -43,14 +45,18 @@ body{
 
 .list-group-item:hover{
     background-color: transparent;
+    color: gray;
 }
 
 
 #midias{
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 45px;
-    background-color: transparent;
     cursor: pointer;
+    padding: 35px;
+
 }
 
 .links{
