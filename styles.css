@@ -34,18 +34,23 @@ body{
     margin: 5px 5px 5px 5px;
 }
 
+h1{
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+}
+
 #meio{
     margin-top: 25px;
 }
 
 .list-group-item{
-    background-color: transparent;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
 }
 
 .list-group-item:hover{
     background-color: transparent;
-    color: gray;
+    color: black;
 }
 
 
@@ -61,4 +66,8 @@ body{
 
 .links{
     padding: 5px;
+}
+
+#footer{
+    background-color: black;
 }
