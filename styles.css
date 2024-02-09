@@ -34,8 +34,8 @@ body{
     margin: 5px 5px 5px 5px;
 }
 
-h1{
-    color: black;
+h3{
+    color: whitesmoke;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
 }
 
@@ -44,13 +44,13 @@ h1{
 }
 
 .list-group-item{
-    background-color: whitesmoke;
-    color: black;
+    background-color: transparent;
+    color: #05d4f4;
 }
 
 .list-group-item:hover{
     background-color: transparent;
-    color: black;
+    color: #084765;
 }
 
 
@@ -66,6 +66,12 @@ h1{
 
 .links{
     padding: 5px;
+    transition: transform 0.3s ease;
+
+}
+.links:hover{
+    transform: scale(1.2);
+
 }
 
 #footer{
