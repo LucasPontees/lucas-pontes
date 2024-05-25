@@ -4,13 +4,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    padding: 0;
     min-height: 100vh;
     color: whitesmoke;
-    background-image: url('./imagens/fundo.jpg');
-    background-size: cover; /* Isso fará com que a imagem de fundo cubra todo o espaço disponível */
-    background-position: center;
+    background-color: #084765;
 
 }
 
@@ -45,7 +41,7 @@ h3{
 
 .list-group-item{
     background-color: transparent;
-    color: #05d4f4;
+    color: whitesmoke;
 }
 
 .list-group-item:hover{
