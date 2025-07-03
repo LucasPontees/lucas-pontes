@@ -4,92 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alset</title>
-    <link rel="shortcut icon" type="image/jpg" href="/imagens/aba.jpg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpolygon points='16,2 20,12 31,12 22,19 25,30 16,23 7,30 10,19 1,12 12,12' fill='white'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="col-12 d-flex justify-content-between flex-column">
-            <nav class="navbar navbar-expand-lg bg-body-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#" style="color: antiquewhite;">LucasPontees</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="links" href="https://github.com/LucasPontees"><img
-                                        src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                                        alt=""></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="links" href="https://www.linkedin.com/in/lpdadev/"> <img
-                                        src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-                                        alt=""></a>
-                            </li>
-                            <li class="nav-item">
-
-                                <a class="links" href="https://api.whatsapp.com/send?phone=5592981163923"><img
-                                        src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
-                                        alt=""></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="row d-flex justify-content-center align-items-center">
-                <section id="inicio">
-
-                    <div class="card container" style="width: 12rem;" id="card">
-                        <img src="./imagens/me.jpg" class="card-img-top rounded-circle" alt="..." id="foto-perfil">
-                        <div class="card-body">
-                            <h5 class="card-title">@lpontesfs</h5>
-                        </div>
-                    </div>
-                </section>
-                <div class="d-flex justify-content-center align-items-center flex-column">
-                    <h3>Conheça meus projetos</h3>
-                    <section id="meio">
-                        <div class="list-group">
-                            <a href="https://rodocleantransportes.com.br/"
-                                class="list-group-item list-group-item-action">
-                                <h4>Site -
-                                    Rodoclean</h4>
-                            </a>
-                            <a href="https://drinks-on-lucaspontees.vercel.app/"
-                                class="list-group-item list-group-item-action">
-                                <h4>Cardapio
-                                    Digital - 🛠</h4>
-                            </a>
-                            <a href="https://github.com/LucasPontees/gerenciadorDeTarefas"
-                                class="list-group-item list-group-item-action">
-                                <h4>Gerenciador de Tarefas</h4>
-                            </a>
-                        </div>
-                    </section>
-                </div>
-                <section id="midias" class="fixed-bottom align-items-center">
-                </section>
-                <div class="footer text-center p-3  mt-5" id="footer">
-                    <h6>Desenvolvido por Lucas Pontes <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                            fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386Z" />
-                        </svg></h6>
-                </div>
+    <nav class="navbar">
+        <div class="container">
+            <span class="brand">Lucas Pontes</span>
+            <div class="social-links">
+                <a href="https://github.com/LucasPontees" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lpdadev/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5592981163923" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
+    </nav>
+    <main class="main-content">
+        <section class="profile">
+            <img src="./imagens/me.jpg" alt="Foto de Lucas Pontes" class="profile-img">
+            <h5 class="card-title">@lpontesfs</h5>
+            <div class="d-flex justify-content-center align-items-center flex-column">
+                <h3>Desenvolvedor Fullstack | Soluções para ERPs e sistemas empresariais</h3>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Sites em Destaque</h2>
+            <div class="projects-list">
+                <a href="https://rodocleantransportes.com.br/" class="project-card">
+                    <h3>Site - Rodoclean</h3>
+                </a>
+                <a href="https://www.shaddaylabclinica.com.br/" class="project-card">
+                    <h3>Site - ShaddayLab</h3>
+                </a>
+                <a href="https://github.com/LucasPontees/gerenciadorDeTarefas" class="project-card">
+                    <h3>Gerenciador de Tarefas</h3>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <span>Desenvolvido por Lucas Pontes</span>
+    </footer>
 </body>
-
 </html>
